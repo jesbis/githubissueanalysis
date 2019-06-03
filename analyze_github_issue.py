@@ -335,7 +335,7 @@ issue = GitHubIssueData("issue.html")
 
 analyze_github_comments(
     issue,
-    excluded_key_phrases = ["WinUI", "Windows", "Microsoft", "way", "things", "comments", "people", "issue", "thing"],
+    excluded_key_phrases = [],
     print_summary = True,
     show_sentiment_plot = True,
     output_filename = "GitHub issue analysis %s.txt" % (datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
